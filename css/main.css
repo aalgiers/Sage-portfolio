@@ -1,0 +1,71 @@
+
+
+/*FONTS*/
+
+body{
+	font-family: 'Titillium Web', Arial, Helvetica, sans-serif; /* font-family of paragraph tags */
+  	font-size: 16px; /* base font size for paragraph tags */
+  	color: #d9d8d9; /* font color for paragraph tags */
+}
+
+h1, h3, button {
+	font-family: 'teko', arial, helvetica, sans-serif;
+}
+
+p{
+	font-family: 'titillium web', arial, helvetica, sans-serif;
+}
+
+ 
+
+
+ /*navigation*/
+.container {
+	height: 15px;
+}
+
+.logo {
+	padding-left: 300px;
+	width: 80px;
+	height: 63px;
+}
+
+.navigation {
+	padding-left: 660px;
+	display: inline;
+}
+
+nav li {
+	display: inline-block;
+	padding-left: 25px;
+	margin-bottom: 15px;
+	position:relative;
+}
+
+a {
+ 	text-decoration: none;
+ 	color: gray;
+
+	}
+
+nav a:hover { color: #ff0000; 
+ }
+
+ /*hero*/
+
+ main {
+ 	background-image: url("../img/background.png");
+ 	background-size: cover;
+ 	height: 750px;
+ 	padding-top: -50px;
+ 
+ }
+ 
+.hide {
+ 	color:red;
+ 	display:none;
+ }
+
+
+
+
